@@ -1,0 +1,39 @@
+﻿  glad.c
+  BehaviorHandler.cpp
+  Box.cpp
+  CollisionHandler.cpp
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(10): error C2146: syntax error: missing ':' before identifier 'GameObject'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(10): error C2238: unexpected token(s) preceding ';'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(11): error C2146: syntax error: missing ':' before identifier 'Behavior'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(11): error C2238: unexpected token(s) preceding ';'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(16): error C2039: 'otherObject': is not a member of 'CollisionBehaviors'
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(8): note: see declaration of 'CollisionBehaviors'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(17): error C2039: 'behaviors': is not a member of 'CollisionBehaviors'
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(8): note: see declaration of 'CollisionBehaviors'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.cpp(7): error C2039: 'otherObject': is not a member of 'CollisionBehaviors'
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(8): note: see declaration of 'CollisionBehaviors'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.cpp(11): error C2039: 'behaviors': is not a member of 'CollisionBehaviors'
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionhandler.h(8): note: see declaration of 'CollisionBehaviors'
+  CollisionManager.cpp
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C2143: syntax error: missing ')' before '*'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C2143: syntax error: missing ';' before '*'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C2512: 'CollisionManager': no appropriate default constructor available
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.h(7): note: see declaration of 'CollisionManager'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C2371: 'GameObject': redefinition; different basic types
+  f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): note: see declaration of 'GameObject'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(3): error C2059: syntax error: ')'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(8): error C2062: type 'bool' unexpected
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(9): error C2143: syntax error: missing ';' before '{'
+f:\openglmapgenerator\mapgenerator\mapgenerator\collisionmanager.cpp(9): error C2447: '{': missing function header (old-style formal list?)
+  Component.cpp
+  GameObject.cpp
+  main.cpp
+  Point.cpp
+  SpriteRenderer.cpp
+  stb_image.cpp
+  Transform.cpp
+  WASDControlls.cpp
+  __main.cpp
+  Generating Code...

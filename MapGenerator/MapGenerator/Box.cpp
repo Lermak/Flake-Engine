@@ -1,7 +1,7 @@
 #include <math.h>
-#include <glad/glad.h>
+#include "glad.h"
 #include <GLFW/glfw3.h>
-#include <Box.h>
+#include "Box.h"
 #include <iostream>
 #include "stb_image.h"
 

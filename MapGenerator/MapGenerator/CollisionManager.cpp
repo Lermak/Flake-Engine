@@ -10,7 +10,7 @@ CollisionManager::CollisionManager(GameObject ** CCObjects, int numCCObjects, Ga
 
 bool CollisionManager::SATCollision(Box * myBox, Box * otherBox)
 {
-
+	return false;
 }
 
 Point CollisionManager::AABBCollision(Box * myBox, Box * otherBox)
@@ -19,7 +19,7 @@ Point CollisionManager::AABBCollision(Box * myBox, Box * otherBox)
 	if ((*myBox).BottomLeft().x > (*otherBox).BottomLeft().x &&
 		(*myBox).BottomLeft().x < (*otherBox).BottomRight().x &&
 		(*myBox).BottomLeft().y > (*otherBox).BottomLeft().y &&
-		(*myBox).BottomLeft().y < (*otherBox).TopLeft.y)
+		(*myBox).BottomLeft().y < (*otherBox).TopLeft().y)
 	{
 		//bottom left collision occured
 		return Point(0,0);
@@ -27,7 +27,7 @@ Point CollisionManager::AABBCollision(Box * myBox, Box * otherBox)
 	if ((*myBox).BottomRight().x < (*otherBox).BottomRight().x &&
 		(*myBox).BottomRight().x > (*otherBox).BottomLeft().x &&
 		(*myBox).BottomRight().y > (*otherBox).BottomLeft().y &&
-		(*myBox).BottomRight().y < (*otherBox).TopLeft.y)
+		(*myBox).BottomRight().y < (*otherBox).TopLeft().y)
 	{
 		//bottom right collision occured
 		return Point(0, 0);
@@ -35,7 +35,7 @@ Point CollisionManager::AABBCollision(Box * myBox, Box * otherBox)
 	if ((*myBox).TopLeft().x > (*otherBox).BottomLeft().x &&
 		(*myBox).TopLeft().x < (*otherBox).BottomRight().x &&
 		(*myBox).TopLeft().y > (*otherBox).BottomLeft().y &&
-		(*myBox).TopLeft().y < (*otherBox).TopLeft.y)
+		(*myBox).TopLeft().y < (*otherBox).TopLeft().y)
 	{
 		//top left collision occured
 		return Point(0, 0);
@@ -43,7 +43,7 @@ Point CollisionManager::AABBCollision(Box * myBox, Box * otherBox)
 	if ((*myBox).TopRight().x > (*otherBox).BottomLeft().x &&
 		(*myBox).TopRight().x < (*otherBox).BottomRight().x &&
 		(*myBox).TopRight().y > (*otherBox).BottomLeft().y &&
-		(*myBox).TopRight().y < (*otherBox).TopLeft.y)
+		(*myBox).TopRight().y < (*otherBox).TopLeft().y)
 	{
 		//top Right collision occured
 		return Point(0, 0);

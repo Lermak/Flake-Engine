@@ -1,4 +1,4 @@
-#include <glad/glad.h>
+#include "glad.h"
 #include <GLFW/glfw3.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
@@ -32,7 +32,7 @@ Behavior * playerBehaviors[1] = {
 };
 
 BehaviorHandler playerBH(playerBehaviors, 1, &player);
-CollisionHandler playerCH(playerCollisions, 1, &player);
+//CollisionHandler playerCH(playerCollisions, 1, &player);
 
 //Create Component Arrays
 Component * playerComp[4] = {

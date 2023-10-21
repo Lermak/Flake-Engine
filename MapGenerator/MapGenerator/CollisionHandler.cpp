@@ -11,12 +11,12 @@ void CollisionHandler::RunBehaviors(GameObject * collidedWith)
 {
 	for (int i = 0; i < numCollisionBehaviors; ++i)
 	{
-		if (myBehaviors[i]->otherObject = collidedWith)
+		/*if (myBehaviors[i]->otherTag == collidedWith)
 		{
 			for (int y = 0; y < myBehaviors[i]->numBehaviors; ++y)
 			{
 				myBehaviors[i]->behaviors[y]->RunBehavior(MyObject);
 			}
-		}
+		}*/
 	}
 }
